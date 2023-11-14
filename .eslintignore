@@ -1,0 +1,4 @@
+node_modules
+dist
+nameGen.js
+*webpack.js

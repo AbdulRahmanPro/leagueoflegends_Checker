@@ -1,0 +1,49 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+/* @import 'bootswatch/dist/Cosmo/bootstrap.min.css'; */
+@import 'bootswatch/dist/Cosmo/bootstrap.min.css';
+@import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+
+.window-title {
+  font-family: 'Source Sans Pro', 'Segoe UI', Roboto, Arial, sans-serif;
+  font-size: 14px !important;
+  margin-left: 0px !important;
+}
+.version-container {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+
+td,
+th {
+  white-space: nowrap;
+}
+
+.react-bootstrap-table {
+  min-height: 343px;
+}
+
+.react-bootstrap-table-page-btns-ul {
+  float: right;
+  margin-bottom: 0;
+}
+
+.react-bootstrap-table-pagination {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.react-bootstrap-table table {
+  table-layout: auto;
+  margin-bottom: 0;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
